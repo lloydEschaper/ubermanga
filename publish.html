@@ -23,9 +23,6 @@
                 <div class="col-md align-self-center">
                     <h1>Power in YOUR pen.</h1>
                 </div>
-                <div class="col-md-3 col-xl-2">
-                    <a role="button" class="btn btn-primary btn-lg" id="publishButton" href="publish.html">Publish A Story!</a>
-                </div>
             </div>
         </div>
     </header>
@@ -33,40 +30,42 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4 col-md">
-                <h2>WEEKLY FEATURE</h2>
-                <div class="container">
+                <h2>PUBLISH YOUR STORY</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <form>
                     <div class="row">
-                        <div class="col-md-6 col-lg-3">
-                            <a href="#">
-                                <img src="img/onepiece-thumb.png">
-                            </a>
-                            <h4 class="storyTitle">One Piece</h4>
-                            <p class="authorName">Eiichiro Oda</p>
-                            
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <a href="#">
-                                <img src="img/onepiece-thumb.png">
-                            </a>
-                            <h4 class="storyTitle">Dragon Ball</h4>
-                            <p class="authorName">Akira Toriyama</p>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <a href="#">
-                                <img src="img/onepiece-thumb.png">
-                            </a>
-                            <h4 class="storyTitle">Bleach</h4>
-                            <p class="authorName">Tite Kubo</p>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <a href="#">
-                                <img src="img/onepiece-thumb.png">
-                            </a>
-                            <h4 class="storyTitle">Naruto</h4>
-                            <p class="authorName">Masashi Kishimoto</p>
+                        <div class="col">
+                            <label for="storyTitle">Story Title</label>
+                            <input type="text" id="storyTitle">
                         </div>
                     </div>
-                </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="authorName">Author Name</label>
+                            <input type="text" id="authorName">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="storyDesc">Description</label>
+                            <input type="text" id="storyDesc" size="50">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="storyPages">Story Pages</label>
+                            <input type="file" id="storyPages">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input type="submit">
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

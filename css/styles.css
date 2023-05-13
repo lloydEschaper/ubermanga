@@ -9,11 +9,19 @@
 .jumbotron {
     padding: 30px;
     background-image: linear-gradient(#b2b9b9, #707c88);
-    color: white;
+    color: black;
 }
 
 footer {
     padding: 10px;
     background-image: linear-gradient(#808b97, #a8adb4);
     color: white;
+}
+
+#storyDesc {
+    height: 180px;
+}
+
+input {
+    padding: 10px;
 }
